@@ -1,5 +1,5 @@
 module "foo"{
-    source = "git@github.com:hsujay80/Terraform-Modules/blob/main/S3.tf"
+    source = "git::https://github.com/hsujay80/Terraform-Modules.git"
     bucket_name = "Sujay"
 
 }
